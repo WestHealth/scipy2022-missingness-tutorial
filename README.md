@@ -1,18 +1,20 @@
-## Tutorial Instructions
+# Tutorial Instructions
 
-Docker Method (Preferred Method):
+#### Docker Method (Preferred Method)
 
-Down load the following from `dockerhub`westhealth/scipy2022-missingness-tutorial
+Download the following from `dockerhub` `westhealth/scipy2022-missingness-tutorial`
 
-Colab Compatible:
+```docker pull westhealth/scipy2022-missingness-tutorial```
 
-Versions designed for google colaboratory are available at: https://github/Westhealth/scipy2022-missingness-tutorial/colab
+#### Colab Compatible Method
 
-Build Your Own
+Versions designed for google colaboratory are available at: https://github/Westhealth/scipy2022-missingness-tutorial/tree/main/colab.
+
+Since colab isolates every notebook in it's own VM, to reduce the amount of file uploading, it is recommended that you create a folder in your google drive called `missingness_tutorial` so that the notebooks can share files.
+
+#### Build Your Own
 
 If you intend to build this yourself, the docker container uses the following:
-
-
 
 | Library     | Version |
 | ----------- | ------- |
