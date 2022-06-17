@@ -6,6 +6,12 @@ Download the following from `dockerhub` `westhealth/scipy2022-missingness-tutori
 
 ```docker pull westhealth/scipy2022-missingness-tutorial```
 
+This notebook is built onto of the standard `jupyter` docker images which require hash authentication. The hash is found in the output of the docker container. If for some reason you cannot find this you can pull an "insecure" version of the docker image where there authentication is turned off. While risk is minimal, lack of authentication means it is theoretically possible for someone to access your container.  If you elect the insecure option, download it from dockerhub:
+
+```docker pull westhealth/scipy2022-missingness-tutorial:insecure```
+
+You may also elect to build your from this Github Repository:  https://github/Westhealth/scipy2022-missingness-tutorial/
+
 #### Colab Compatible Method
 
 Versions designed for google colaboratory are available at: https://github/Westhealth/scipy2022-missingness-tutorial/tree/main/colab.
