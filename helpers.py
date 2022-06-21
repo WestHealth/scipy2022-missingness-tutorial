@@ -22,5 +22,5 @@ def stat_comparison(original, missing, column):
         columns=["Original", "With Missing Data"],
     )
     df["difference"] = (df["Original"] - df["With Missing Data"]).abs()
-    df["percentate"] = df["difference"] / df["Original"] * 100
+    df["percentage"] = df["difference"] / df["Original"] * 100
     return df
