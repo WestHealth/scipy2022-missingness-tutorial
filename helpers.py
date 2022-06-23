@@ -24,3 +24,32 @@ def stat_comparison(original, missing, column):
     df["difference"] = (df["Original"] - df["With Missing Data"]).abs()
     df["percentage"] = df["difference"] / df["Original"] * 100
     return df
+
+#
+# Helps highlight cells for hot deck imputation demonstration
+#
+
+def spotlight_donors(df, donors, missing=None):
+    s = df.style
+    def green(x):
+        return 'background-color: green; color: white'
+    def darkgreen(x):
+        return 'background-color: darkgreen; color: white'
+    def lightgreen(x):
+        return 'background-color: lightgreen'
+    def yellow(x):
+        return 'background-color: yellow'
+    for each in donors.index:
+        s=s.applymap(green, subset=pd.IndexSlice[each, 'distance']).applymap(lightgreen, subset=pd.IndexSlice[each,'feature a'])
+        if 'regression' in df.columns:
+            s=s.applymap(darkgreen, subset=pd.IndexSlice[each, 'regression'])
+            if missing:
+                s=s.applymap(yellow, subset=pd.IndexSlice[missing, 'regression'])
+    return s
+
+class ImputationDisplayer:
+    def __init__(self, df):
+        self.missingness = df.applymap(lambda x: "background-color: paleturquoise" if np.isnan(x) else "")
+    
+    def __call__(self, df, rows):
+        return df.iloc[0:rows].style.apply(lambda x: self.missingness.iloc[0:rows], axis=None)
