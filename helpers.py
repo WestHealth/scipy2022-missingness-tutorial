@@ -49,7 +49,8 @@ def spotlight_donors(df, donors, missing=None):
 
 class ImputationDisplayer:
     def __init__(self, df):
-        self.missingness = df.applymap(lambda x: "background-color: paleturquoise" if np.isnan(x) else "")
+        self.missingness = df.applymap(lambda x: "background-color: paleturquoise" if pd.isnull(x) else "")
+        df.displayer = self # attach to dataframe
     
     def __call__(self, df, rows):
         return df.iloc[0:rows].style.apply(lambda x: self.missingness.iloc[0:rows], axis=None)
