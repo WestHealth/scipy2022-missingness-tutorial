@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="95.71" height="100.979"
+	 viewBox="0 0 95.71 100.979" overflow="visible" enable-background="new 0 0 95.71 100.979" xml:space="preserve">
+<g>
+	<path fill="#010101" d="M95.71,42.276H85.74c-1.756,18.33-12.766,32.017-25.912,32.017c-1.771,0-3.555-0.254-5.303-0.762
+		l-3.869-1.119l3.865-1.121c9.791-2.844,17.453-14.677,18.908-29.011h-9.865l16.072-16.078L95.71,42.276z M59.083,71.939
+		c0.25,0.014,0.498,0.021,0.744,0.021c12.17,0,22.35-13.3,23.678-30.936l0.082-1.082h6.484L79.636,29.502L69.203,39.942h6.76
+		l-0.096,1.252C74.802,55.347,68.246,67.1,59.083,71.939z M45.056,28.565l-3.867,1.118c-9.791,2.849-17.451,14.683-18.907,29.014
+		h9.867l-16.073,16.08L0,58.698h9.97c1.756-18.33,12.765-32.018,25.913-32.018c1.773,0,3.555,0.253,5.305,0.76L45.056,28.565z
+		 M19.748,61.036l0.096-1.255c1.065-14.151,7.624-25.909,16.783-30.743c-0.246-0.01-0.496-0.021-0.742-0.021
+		c-12.17,0-22.349,13.3-23.675,30.936l-0.083,1.083H5.639l10.436,10.439L26.51,61.036H19.748L19.748,61.036z"/>
+</g>
+<text transform="matrix(1 0 0 1 22.3633 14.959)" fill="#010101" font-family="'TimesNewRomanPSMT'" font-size="18">Impute</text>
+<text transform="matrix(1 0 0 1 18.8066 95.4595)" fill="#010101" font-family="'TimesNewRomanPSMT'" font-size="18">Clobber</text>
+</svg>
