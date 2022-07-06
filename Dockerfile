@@ -11,3 +11,4 @@ COPY docker/*.ipynb docker/*.py .
 COPY data/* data/
 RUN chown -R jovyan .
 USER jovyan
+ENV DOCKER_STACKS_JUPYTER_CMD notebook
