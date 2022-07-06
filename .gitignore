@@ -48,3 +48,17 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Dot Files
+.bash_history
+.cache
+.config
+.ipynb_checkpoints
+.ipython
+.jupyter
+.keras
+.local
+.python_history
+.theano
+*~
+
+.gitignore
