@@ -7,5 +7,6 @@ RUN apt update
 RUN apt install gcc g++ -y
 USER jovyan
 COPY docker-README.md README.md
+COPY colab/helpers.py .
 COPY docker/*.ipynb docker/*.py .
 COPY data/* data/
