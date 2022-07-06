@@ -5,7 +5,10 @@ RUN pip install autoimpute mkl-service
 USER root
 RUN apt update
 RUN apt install gcc g++ -y
-USER jovyan
 COPY docker-README.md README.md
+COPY colab/helpers.py .
 COPY docker/*.ipynb docker/*.py .
 COPY data/* data/
+RUN chown -R jovyan .
+USER jovyan
+ENV DOCKER_STACKS_JUPYTER_CMD notebook
