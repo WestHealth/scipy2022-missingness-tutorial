@@ -10,8 +10,8 @@
 	<g>
 		<g>
 			<line fill="none" stroke="#000000" x1="188" y1="32.5" x2="218" y2="32.5"/>
-			<path d="M217.49,32.5l-1.096-1.802l0.062-0.04l2.938,1.166c1.023,0.226,2.047,0.45,3.07,0.676
-				c-1.023,0.225-2.047,0.45-3.07,0.676l-2.938,1.166l-0.062-0.03L217.49,32.5z"/>
+			<path d="M217.49,32.5l-1.096-1.802l0.063-0.04l2.938,1.166c1.023,0.226,2.047,0.45,3.07,0.676
+				c-1.023,0.225-2.047,0.45-3.07,0.676l-2.938,1.166l-0.063-0.029L217.49,32.5z"/>
 		</g>
 	</g>
 </g>
@@ -19,8 +19,8 @@
 	<g>
 		<g>
 			<line fill="none" stroke="#000000" x1="282" y1="32.5" x2="312" y2="32.5"/>
-			<path d="M311.49,32.5l-1.096-1.802l0.062-0.04l2.938,1.166c1.023,0.226,2.047,0.45,3.07,0.676
-				c-1.023,0.225-2.047,0.45-3.07,0.676l-2.938,1.166l-0.062-0.03L311.49,32.5z"/>
+			<path d="M311.49,32.5l-1.096-1.802l0.063-0.04l2.938,1.166c1.023,0.226,2.047,0.45,3.07,0.676
+				c-1.023,0.225-2.047,0.45-3.07,0.676l-2.938,1.166l-0.063-0.029L311.49,32.5z"/>
 		</g>
 	</g>
 </g>
@@ -28,8 +28,8 @@
 	<g>
 		<g>
 			<line fill="none" stroke="#000000" x1="376" y1="32.5" x2="406" y2="32.5"/>
-			<path d="M405.49,32.5l-1.096-1.802l0.062-0.04l2.938,1.166c1.023,0.226,2.047,0.45,3.07,0.676
-				c-1.023,0.225-2.047,0.45-3.07,0.676l-2.938,1.166l-0.062-0.03L405.49,32.5z"/>
+			<path d="M405.49,32.5l-1.096-1.802l0.063-0.04l2.938,1.166c1.023,0.226,2.047,0.45,3.07,0.676
+				c-1.023,0.225-2.047,0.45-3.07,0.676l-2.938,1.166l-0.063-0.029L405.49,32.5z"/>
 		</g>
 	</g>
 </g>
@@ -38,20 +38,18 @@
 		<g>
 			<line fill="none" stroke="#000000" x1="94" y1="32.5" x2="124" y2="32.5"/>
 			<path d="M123.49,32.5l-1.096-1.802l0.062-0.041l2.938,1.167c1.023,0.226,2.047,0.45,3.07,0.676
-				c-1.023,0.225-2.047,0.45-3.07,0.676l-2.938,1.166l-0.062-0.03L123.49,32.5z"/>
+				c-1.023,0.225-2.047,0.45-3.07,0.676l-2.938,1.166l-0.062-0.029L123.49,32.5z"/>
 		</g>
 	</g>
 </g>
-<g>
-	<rect x="128" y="14.5" fill="none" stroke="#000000" width="60" height="36"/>
-	<text transform="matrix(1 0 0 1 143.7549 34.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">Imputer</text>
-</g>
+<rect x="128" y="14.5" fill="none" stroke="#000000" width="60" height="36"/>
+<text transform="matrix(1 0 0 1 132.7559 34.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">Preprocessing</text>
 <g>
 	<g>
 		<g>
 			<line fill="none" stroke="#000000" x1="0" y1="32.5" x2="30" y2="32.5"/>
 			<path d="M29.49,32.5l-1.096-1.802l0.062-0.041l2.938,1.167c1.023,0.226,2.047,0.45,3.07,0.676
-				c-1.023,0.225-2.047,0.45-3.07,0.676l-2.938,1.166l-0.062-0.03L29.49,32.5z"/>
+				c-1.023,0.225-2.047,0.45-3.07,0.676l-2.938,1.166l-0.062-0.029L29.49,32.5z"/>
 		</g>
 	</g>
 </g>
@@ -59,23 +57,21 @@
 	<rect x="34" y="14.5" fill="none" stroke="#000000" width="60" height="36"/>
 	<text transform="matrix(1 0 0 1 46.7539 34.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">Encoding</text>
 </g>
-<g>
-	<rect x="222" y="14.5" fill="none" stroke="#000000" width="60" height="36"/>
-	<text transform="matrix(1 0 0 1 226.7559 34.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">Preprocessing</text>
-</g>
+<rect x="222" y="14.5" fill="none" stroke="#000000" width="60" height="36"/>
+<text transform="matrix(1 0 0 1 237.728 34.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">Imputer</text>
 <g>
 	<g>
 		<rect x="321" y="3.5" fill="none" stroke="#000000" width="30" height="18"/>
-		<text transform="matrix(1 0 0 1 326.2549 14.8599)" font-family="'TimesNewRomanPSMT'" font-size="9">Train</text>
+		<text transform="matrix(1 0 0 1 326.2554 14.8604)" font-family="'TimesNewRomanPSMT'" font-size="9">Train</text>
 	</g>
 	<g>
 		<rect x="321" y="23.5" fill="none" stroke="#000000" width="30" height="18"/>
-		<text transform="matrix(1 0 0 1 328.2529 34.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">Test</text>
-		<text transform="matrix(1 0 0 1 356.25 34.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">ML</text>
+		<text transform="matrix(1 0 0 1 328.2534 34.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">Test</text>
+		<text transform="matrix(1 0 0 1 356.2495 34.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">ML</text>
 	</g>
 	<g>
 		<rect x="321" y="43.5" fill="none" stroke="#000000" width="30" height="18"/>
-		<text transform="matrix(1 0 0 1 329.002 54.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">Use</text>
+		<text transform="matrix(1 0 0 1 329.0015 54.8594)" font-family="'TimesNewRomanPSMT'" font-size="9">Use</text>
 	</g>
 </g>
 <rect x="316" y="0.5" fill="none" stroke="#000000" width="60" height="64"/>
