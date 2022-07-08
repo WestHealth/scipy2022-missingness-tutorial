@@ -61,4 +61,4 @@ Thumbs.db
 .theano
 *~
 
-.gitignore
+local/
