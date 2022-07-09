@@ -16,7 +16,7 @@ You may also elect to build your from this Github Repository:  https://github/We
 
 Versions designed for google colaboratory are available at: https://github/Westhealth/scipy2022-missingness-tutorial/tree/main/colab.
 
-Since colab isolates every notebook in it's own VM, to reduce the amount of file uploading, it is recommended that you create a folder in your google drive called `missingness_tutorial` so that the notebooks can share files.
+Since colab isolates every notebook in it's own VM, to reduce the amount of file uploading, it is recommended that you create a folder in your google drive called `missingness_tutorial` so that the notebooks can share files. It is recommended as well that you upload the `helpers.py` file and the `data` folder into this `missingness_tutorial` folder.
 
 #### Build Your Own
 

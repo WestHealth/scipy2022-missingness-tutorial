@@ -1,3 +1,3 @@
-# BETA VERSION
+# Welcome
 
-The notebooks are undergoing final review. If you are trying to get a jump on the tutorial. Please check back for up to date notebook
+Since docker images have self contained storage and may be ephemeral, it is recommended that you download each notebook you wish to save upon completion of each section, if you wish to review further.
