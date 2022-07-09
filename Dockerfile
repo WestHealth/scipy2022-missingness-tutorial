@@ -8,6 +8,7 @@ RUN apt install gcc g++ -y
 COPY docker-README.md README.md
 COPY colab/helpers.py .
 COPY docker/*.ipynb docker/*.py .
+COPY slides.pdf .
 COPY data/* data/
 RUN chown -R jovyan .
 USER jovyan
