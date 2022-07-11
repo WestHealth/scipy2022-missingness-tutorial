@@ -1,5 +1,9 @@
 # Tutorial Instructions
 
+#### Binder (Preferred Method)
+
+Just follow this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/WestHealth/scipy2022-missingness-tutorial/main)
+
 #### Docker Method (Preferred Method)
 
 Download the following from `dockerhub` `westhealth/scipy2022-missingness-tutorial`
